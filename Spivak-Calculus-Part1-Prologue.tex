@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\begin{document}
+\title{Calculus - Chapter Notes}
+\author{}
+\date{}
+\maketitle
+
+\section{Chapter 1: Basic Properties of Numbers}
+
+\begin{enumerate}
+	\item additive associativity
+	\item additive identity
+	\item additive inverse
+	\item additive commutativity
+	\item multiplicative associativity
+	\item multiplicative identity
+	\item multiplicative inverse
+	\item multiplicative commutativity
+	\item distributive law
+	\item trichotomy law
+	\item closure under addition for P
+	\item closure under multiplication for P
+\end{enumerate}
+
+\begin{flushleft}
+With P1-P8 very little can actually be proved. But with the introduction of P9, which is effectively a bridge between addition and multiplication, a lot more can be demonstrated. For instance, it can be shown that $(-a) \cdot (-b) = a \cdot b$. Furthermore P9 is actually the justification for almost all algebraic manipulations.
+\end{flushleft}
+
+\begin{flushleft}
+One can define the terms 'positive' and 'negative' in terms of inequality (i.e. the numbers satisfying a > 0 are called positive), or one can reverse the procedure and define inequality in terms of the notion of sign (a < b can be defined to mean that b-a) is positive. Spivak notes: "In fact, it is convenient to consider the collection of all positive numbers, denoted by P, as the basic concept, and state all properties in terms of P". After the introduction of P10-P12, it is noted that those properties should be complemented by the following definitions:
+\end{flushleft}
+
+\begin{enumerate}
+	\item a $>$ b if a - b is in P
+	\item a $<$ b if b $>$ a;
+	\item a $\geq$ b if a $>$ b or a = b
+	\item a $\leq$ b if a $<$ b or a = b
+\end{enumerate}
+
+\textbf{Theorem 1}: For all numbers a and b, we have $ |a+b| \leq |a|+|b| $
+
+\begin{flushleft}
+Some concluding notes from Spivak: "[though at this point in the book] we do not yet thoroughly understand numbers; we may still say that, in whatever way numbers are finally defined, they should certainly have properties P1-P12...It is still a crucial question whether P1-P12 actually account for \textit{all} properties of numbers. As a matter of fact, we shall soon see that they do \textit{not}. In the next chapter the deficiencies of P1-P12 will become quite clear, but the proper means for correcting these deficiencies is not so easily discovered [it will require all of part 2 of the book]"
+\end{flushleft}
+
+\section{Chapter 2: Numbers of Various Sorts}
+
+\begin{flushleft}
+Consider the natural numbers, denoted $\mathbb{N}$. Note that not all of P1-P12 are satisfied for $\mathbb{N}$ (for example P2 and P3 don't make sense for $\mathbb{N}$). The natural numbers have the property of mathematical induction, which stated formally says: If A is any collection of natural numbers and 1) 1 is in A, 2) k+1 is in A whenever k is in A, then A is the set of all natural numbers. Note that the principle of strong induction is equivalent, and but has a different statement for 2) k+1 is in A whenever 1,...,k are in A. Note that the well-ordering principle (if A is a non-null set of natural numbers, then A has a least member) is a simple implication of mathematical induction.
+\end{flushleft}
+
+\begin{flushleft}
+Recursive definitions are introduced (since they are closely related to induction). It is noted that summation notation can be defined formally this way, however "only purveyors of mathematical austerity would insist too strongly on such precision".
+\end{flushleft}
+
+\begin{flushleft}
+The set of all integers $\mathbb{Z}$ is introduced. It is noted that of P1-P12 only P7 fails for $\mathbb{Z}$.
+\end{flushleft}
+
+\begin{flushleft}
+The set of all numbers obtained by taking quotients m/n of integers (with $n\neq0$), called the rational numbers, denoted $\mathbb{Q}$, is introduced. Though P1-P12 are all true for $\mathbb{Q}$, there is a still larger set of numbers to which P1-P12 apply, the set of real numbers, denoted $\mathbb{R}$.
+\end{flushleft}
+
+\begin{flushleft}
+The classic proof that $\sqrt{2}$ is not a rational number is given, and it is further noted that the proof does not prove that such a number exists. In fact, no such proof is possible using only P1-P12.
+\end{flushleft}
+
+\begin{flushleft}
+Spivak concludes by noting: "The most useful hints about the property distinguishing $\mathbb{Q}$ from $\mathbb{R}$...do not come from the study of numbers alone...At this point we must begin with the foundations of calculus, in particular the fundamental concept on which calculus is based--functions"
+\end{flushleft}
+
+\end{document}
